@@ -5,8 +5,3 @@ Resources:
     Properties:
       Subscription:
         [{ Endpoint: "matiasnavarroezequiel@gmail.com", Protocol: "email" }]
-Outputs:
-  BucketName:
-    Value:
-      Ref: S3Bucket
-    Description: "Name of the sample Amazon S3 bucket"
