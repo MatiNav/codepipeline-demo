@@ -6,7 +6,7 @@ Resources:
     Type: "AWS::SNS::Topic"
     Properties:
       Subscription:
-        { Endpoint: "matiasnavarroezequiel@gmail.com", Protocol: "email" }
+        [{ Endpoint: "matiasnavarroezequiel@gmail.com", Protocol: "email" }]
 Outputs:
   BucketName:
     Value:
